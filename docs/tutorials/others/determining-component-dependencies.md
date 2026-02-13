@@ -6,6 +6,10 @@ As an example, the commands necessary to determine the dependencies for the Perc
 
 ## Perception component dependencies
 
+!!! note
+
+    The `tier4_perception_launch` package is located in the [autoware_launch](https://github.com/autowarefoundation/autoware_launch) repository under `tier4_universe_launch/tier4_perception_launch`.
+
 To generate a graph of package dependencies, use the following `colcon` command:
 
 ```bash
