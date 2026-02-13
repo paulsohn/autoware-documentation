@@ -87,7 +87,7 @@ If you are using a version of Autoware that is not compatible with our `tier4_pl
 1. Open the launch file:
 
    ```bash
-   vim <YOUR-AUTOWARE-DIR>/src/universe/autoware_universe/launch/tier4_planning_launch/launch/scenario_planning/lane_driving/behavior_planning/behavior_planning.launch.xml
+   vim <YOUR-AUTOWARE-DIR>/src/launcher/autoware_launch/tier4_universe_launch/tier4_planning_launch/launch/scenario_planning/lane_driving/behavior_planning/behavior_planning.launch.xml
    ```
 
 2. Find the block for `autoware_behavior_path_planner`:

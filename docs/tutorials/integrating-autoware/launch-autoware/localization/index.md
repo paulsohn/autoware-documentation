@@ -29,7 +29,7 @@ This diagram describes some of the Autoware localization launch files flow at `a
 ## tier4_localization_component.launch.xml
 
 The `tier4_localization_component.launch.xml` launch file is the main localization component launch at the `autoware_launch` package.
-This launch file calls `localization.launch.xml` at [tier4_localization_launch](https://github.com/autowarefoundation/autoware_universe/tree/main/launch/tier4_localization_launch) package from `autoware_universe` repository.
+This launch file calls `localization.launch.xml` at [tier4_localization_launch](https://github.com/autowarefoundation/autoware_launch/tree/main/tier4_universe_launch/tier4_localization_launch) package from the `autoware_launch` repository.
 We can modify localization launch arguments at tier4_localization_component.launch.xml.
 
 The current localization launcher implemented by TIER IV supports multiple localization methods, both pose estimators and twist estimators.

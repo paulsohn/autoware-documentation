@@ -32,7 +32,7 @@ After that,
 we need
 to run the [TensorRT YOLO node](https://github.com/autowarefoundation/autoware.universe/tree/main/perception/tensorrt_yolo) for our camera topics
 if it hasn't been launched on your sensor model.
-You can launch the tensorrt_yolo nodes by uncommenting the following lines in the [`camera_lidar_fusion_based_detection.launch.xml`](https://github.com/autowarefoundation/autoware.universe/blob/main/launch/tier4_perception_launch/launch/object_recognition/detection/camera_lidar_fusion_based_detection.launch.xml)
+You can launch the tensorrt_yolo nodes by uncommenting the following lines in the [`camera_lidar_fusion_based_detection.launch.xml`](https://github.com/autowarefoundation/autoware_launch/blob/main/tier4_universe_launch/tier4_perception_launch/launch/object_recognition/detection/camera_lidar_fusion_based_detection.launch.xml)
 file:
 
 !!! note "Please adjust the following lines in the `camera_lidar_fusion_based_detection.launch.xml` file based on the number of your cameras (image_number)"
